@@ -1,0 +1,53 @@
+.image-compressor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #cad2db;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-btn, .compress-btn, .download-btn {
+  width: 200px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.upload-btn:hover, .compress-btn:hover, .download-btn:hover {
+  background-color: #23272b;
+}
+
+.image-box img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid #343a40;
+}
