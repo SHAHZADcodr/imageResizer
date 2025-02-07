@@ -43,7 +43,7 @@ class ImageCompressor extends React.Component {
         closeOnClick: true,
         pauseOnHover: false,
         draggable: true,
-        theme: "dark",
+        theme:"dark"
       });
       return;
     }
